@@ -63,7 +63,7 @@ php artisan serve
 
 buka localhost/email
 
-
+<p class="text-align:center">Thanks to <a href="https://daengweb.id/mengirim-email-notifikasi-menggunakan-smtp-gmail-laravel-8">Daeng Web</a></p>
 
 ## License
 

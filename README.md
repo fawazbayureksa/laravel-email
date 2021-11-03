@@ -23,7 +23,13 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Learning Laravel
 
+# Step 
 
+Buat project Laravel baru 
+
+```
+Laravel new Laravel-email
+```
 
 ## License
 

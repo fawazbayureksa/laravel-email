@@ -33,7 +33,7 @@ Laravel new Laravel-email
 
 Atur file .env seperti di bawah ini
 
-<img src="{{asset('image/mail.png')}}">
+<img src="public/image/mail.png" width="200px">
 
 ## License
 

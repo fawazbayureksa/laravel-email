@@ -40,6 +40,11 @@ Membuat mailable class pada terminal dengan menggunakan php artisan
 ```
 php artisan make:mail PostMail
 ```
+buka file PostMail yang baru di buat di App/Mail/ dan atur menjadi , contoh :
+
+<img src="public/image/postmail.png" width="400px">
+
+
 
 ## License
 

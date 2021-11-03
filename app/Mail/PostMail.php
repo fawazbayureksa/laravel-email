@@ -19,14 +19,11 @@ class PostMail extends Mailable
 
      public $title;
      public $name;
-
-    
     public function __construct($title,$name)
     {
         $this->title = $title;
         $this->name = $name;
     }
-
     /**
      * Build the message.
      *

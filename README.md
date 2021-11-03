@@ -33,7 +33,13 @@ Laravel new Laravel-email
 
 Atur file .env seperti di bawah ini
 
-<img src="public/image/mail.png" width="200px">
+<img src="public/image/mail.png" width="400px">
+
+Membuat mailable class pada terminal dengan menggunakan php artisan 
+
+```
+php artisan make:mail PostMail
+```
 
 ## License
 

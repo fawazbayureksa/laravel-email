@@ -44,7 +44,12 @@ buka file PostMail yang baru di buat di App/Mail/ dan atur menjadi , contoh :
 
 <img src="public/image/postmail.png" width="400px">
 
-Buat folde & file baru di views , emails dan file post.blade.php
+Buat folder & file baru di views , emails dan file post.blade.php
+
+kemudian atur seperti ini :
+
+<img src="public/image/email.jpeg" width="400px">
+
 
 ## License
 

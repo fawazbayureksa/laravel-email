@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Mail\PostMail;
+use Illuminate\Support\Facades\Mail;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,4 +16,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/email',function() {
+    Mail::to('fawwazbayureksa@gmail.com')
+    ->send(new \App\Mail\PostMail('Belajar menggunakan Laravel untuk mengirim pesan lewat email','Fawwaz Bayureksa'));
+
+    return 'Terkirim';
+
+
 });

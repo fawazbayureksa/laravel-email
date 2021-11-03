@@ -31,17 +31,9 @@ Buat project Laravel baru
 Laravel new Laravel-email
 ```
 
-Atur file .env
-<p>
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.gmail.com
-MAIL_PORT=587
-MAIL_USERNAME=emailpengirim@gmail.com
-MAIL_PASSWORD=katasandiemail
-MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=emailpengirim@gmail.com
-MAIL_FROM_NAME="${APP_NAME}"
-</p>
+Atur file .env seperti di bawah ini
+
+<img src="{{asset('image/mail.png')}}">
 
 ## License
 

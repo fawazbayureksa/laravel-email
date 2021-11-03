@@ -24,5 +24,4 @@ Route::get('/email',function() {
 
     return 'Terkirim';
 
-
 });

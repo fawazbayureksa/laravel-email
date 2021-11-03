@@ -50,6 +50,20 @@ kemudian atur seperti ini :
 
 <img src="public/image/email.jpeg" width="400px">
 
+dan atur Routes/web contoh : 
+
+<img src="public/image/route.jpeg" width="auto">
+
+
+jalankan laravel
+
+```
+php artisan serve
+```
+
+buka localhost/email
+
+
 
 ## License
 
